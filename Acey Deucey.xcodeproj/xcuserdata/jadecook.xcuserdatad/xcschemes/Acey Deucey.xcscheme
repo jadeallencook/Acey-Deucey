@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E819BFA81EFDBF1F000E7649"
+               BlueprintIdentifier = "E8457D071EFDC36400AB2FA3"
                BuildableName = "Acey Deucey.app"
                BlueprintName = "Acey Deucey"
                ReferencedContainer = "container:Acey Deucey.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E819BFA81EFDBF1F000E7649"
+            BlueprintIdentifier = "E8457D071EFDC36400AB2FA3"
             BuildableName = "Acey Deucey.app"
             BlueprintName = "Acey Deucey"
             ReferencedContainer = "container:Acey Deucey.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E819BFA81EFDBF1F000E7649"
+            BlueprintIdentifier = "E8457D071EFDC36400AB2FA3"
             BuildableName = "Acey Deucey.app"
             BlueprintName = "Acey Deucey"
             ReferencedContainer = "container:Acey Deucey.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E819BFA81EFDBF1F000E7649"
+            BlueprintIdentifier = "E8457D071EFDC36400AB2FA3"
             BuildableName = "Acey Deucey.app"
             BlueprintName = "Acey Deucey"
             ReferencedContainer = "container:Acey Deucey.xcodeproj">
