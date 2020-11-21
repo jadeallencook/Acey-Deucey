@@ -1,10 +1,20 @@
 import React from 'react';
-import './App.css';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import Menu from './pages/Menu';
+import Game from './pages/Game';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Menu />
+        </Route>
+        <Route path="/game/:uid">
+          <Game />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
