@@ -6,7 +6,7 @@ import 'firebase/database';
 import Game from '../classes/Game';
 import { useHistory } from 'react-router-dom';
 
-const Menu = () => {
+const MenuPage = () => {
   const history = useHistory();
 
   async function createNewGame() {
@@ -31,4 +31,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default MenuPage;
