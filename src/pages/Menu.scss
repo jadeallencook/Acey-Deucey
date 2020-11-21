@@ -1,0 +1,25 @@
+div.Menu {
+  text-align: center;
+  > h1 {
+      margin: 20vh 0 5px 0;
+      font-size: 8em;
+  }
+  > p {
+      margin: 25px auto;
+      font-weight: 100;
+  }
+  > button,
+  > form > input {
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    border: solid thin black;
+  }
+  > footer {
+      margin: 25px 0;
+      font-size: 0.75em;
+  }
+}
