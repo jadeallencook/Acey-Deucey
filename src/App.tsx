@@ -1,17 +1,17 @@
 import React from 'react';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
-import Menu from './pages/Menu';
-import Game from './pages/Game';
+import MenuPage from './pages/MenuPage';
+import GamePage from './pages/GamePage';
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route exact path="/">
-          <Menu />
+          <MenuPage />
         </Route>
         <Route path="/game/:uid">
-          <Game />
+          <GamePage />
         </Route>
       </Switch>
     </Router>

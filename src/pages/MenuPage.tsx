@@ -1,6 +1,6 @@
 import React from 'react';
 import DICE from '../constants/dice';
-import './Menu.scss';
+import './MenuPage.scss';
 import firebase from 'firebase/app';
 import 'firebase/database';
 import Game from '../classes/Game';
