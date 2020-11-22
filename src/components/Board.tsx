@@ -22,7 +22,7 @@ const BoardComponent = (props: { board: Number[] }) => {
           .map((number, index) => {
             return (
               <div key={index}>
-                <span>{index + 13}</span>
+                <span>{24 - index}</span>
               </div>
             );
           })}
