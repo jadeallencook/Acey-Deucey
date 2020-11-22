@@ -8,7 +8,15 @@ div.Board {
   margin: 25px auto;
   overflow: hidden;
   border: solid 1px black;
+  /* left side */
   > div:nth-child(1) {
+    > div {
+      padding-left: 5px;
+    }
+    /* checkers */
+    > div > div > div {
+      margin-left: 5px;
+    }
     > div:nth-child(odd) {
       background-color: #b6b6b6;
     }
@@ -16,8 +24,16 @@ div.Board {
       background-color: #4b4b4b;
     }
   }
+  /* right side */
   > div:nth-child(2) {
     text-align: right;
+    > div {
+      padding-right: 5px;
+    }
+    /* checkers */
+    > div > div > div {
+      margin-right: 5px;
+    }
     > div:nth-child(even) {
       background-color: #b6b6b6;
     }
@@ -25,12 +41,32 @@ div.Board {
       background-color: #4b4b4b;
     }
   }
+  /* all points */
   > div > div {
-    padding: 10px 5px;
     cursor: pointer;
+    height: 40px;
+    overflow: hidden;
+    > div {
+      display: inline-block;
+      margin-top: 10px;
+      /* all checkers **/
+      div {
+        background-color: black;
+        color: white;
+        height: 20px;
+        width: 20px;
+        border-radius: 100%;
+        float: left;
+        font-size: 0.5em;
+        line-height: 20px;
+        text-align: center;
+      }
+    }
     > span {
+      display: inline-block;
       color: white;
       font-size: 0.5em;
+      margin-top: -10px;
     }
   }
 }

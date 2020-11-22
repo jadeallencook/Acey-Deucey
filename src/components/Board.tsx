@@ -11,6 +11,12 @@ const BoardComponent = (props: { board: Number[] }) => {
           return (
             <div key={index}>
               <span>{index + 1}</span>
+              <div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div>+2</div>
+              </div>
             </div>
           );
         })}
@@ -22,6 +28,12 @@ const BoardComponent = (props: { board: Number[] }) => {
           .map((number, index) => {
             return (
               <div key={index}>
+                <div>
+                  <div>+2</div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
                 <span>{24 - index}</span>
               </div>
             );
